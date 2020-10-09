@@ -45,6 +45,8 @@ public class Github_act extends AppCompatActivity {
         int result1 = Li.getFarenheith();
         int result2 = Li.getRevival();
         int result3 = Li.getEl_Alquimista();
+        int result4 = Li.getEl_Poder();
+        int result5 = Li.getDespertar();
 
 
         if(lb.equals("Farentheith"))
@@ -61,6 +63,16 @@ public class Github_act extends AppCompatActivity {
         if(lb.equals("El Alquimista"))
         {
             text.setText("El valor de El Alquimista es: " + result3);
+        }
+
+        if(lb.equals("El Poder"))
+        {
+            text.setText("El valor de El Poder es: " + result4);
+        }
+
+        if(lb.equals("Despertar"))
+        {
+            text.setText("El valor de Despertar es: " + result5);
         }
 
     }
