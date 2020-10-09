@@ -9,8 +9,8 @@ public class Libros {
 
     public Libros()
     {
-        Farenheith = 5000;
-        Revival = 12000;
+        Farenheith = 7000;
+        Revival = 22000;
         El_Alquimista = 45000;
         El_Poder = 88000;
         Despertar = 156000;
